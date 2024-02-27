@@ -1,0 +1,47 @@
+# Análise dos Dados do Problema 1 - Equipamentos V1 a V7
+
+Este repositório documenta minha análise detalhada do **Problema 1** apresentado em aula, com base nos dados fornecidos. A planilha contém informações sobre os equipamentos V1 a V7 e seus respectivos sensores.
+
+## Dados da Planilha
+- Os dados estão organizados em uma matriz com 17 linhas (representando os sensores) e 8 colunas (representando os equipamentos).
+- Cada célula contém um valor numérico correspondente à leitura do sensor para o equipamento específico.
+
+## Etapas da Análise
+1. **Comparação dos Valores**:
+   - Comparei os valores de cada sensor para cada equipamento.
+   - Calculei a média e o desvio padrão desses valores.
+
+2. **Identificação da Anomalia**:
+   - Encontrei a maior diferença entre os valores atuais e os anteriores.
+   - Essa diferença indica uma possível anomalia na máquina.
+
+3. **Conclusão**:
+   - Com base nessa análise, a **V7** parece apresentar características que podem indicar um problema no seu funcionamento.
+
+## Matriz de analise
+- Anexei a matriz em Excel com os dados para sua análise detalhada.
+
+Seq	V1	V2	V3	V4	V5	V6	V7	V8	
+1	375	475	135	458	509	469	336	492	
+2	57	73	47	53	63	63	62	58	
+3	245	227	267	242	271	268	219	286	
+4	1472	1582	1494	1462	1613	1490	1323	1493	
+5	105	103	66	103	118	101	98	118	
+6	54	64	41	62	55	63	59	59	
+7	193	235	209	184	207	223	172	156	
+8	147	160	93	122	139	152	130	101	
+9	1102	1137	674	957	1058	1098	990	878	
+10	720	874	1033	566	628	706	646	320	
+11	253	265	143	171	193	247	226	99	
+12	685	803	586	750	830	699	615	777	
+13	488	570	355	418	465	467	437	313	
+14	198	203	187	220	247	209	176	204	
+15	360	365	334	337	376	363	322	348	
+16	1374	1256	1506	1572	1734	1597	1235	1684	
+17	156	175	139	147	167	164	138	170	
+									MÉDIA
+MÉDIA 	469,65	503,94	429,94	460,24	510,18	492,88	422,59	444,47	466,74
+DESVIO PADRÃO	452,70	463,86	479,90	469,60	517,55	480,72	405,84	491,30	470,18
+									
+DIFERENÇA	2,91	37,21	-36,79	-6,50	43,44	26,15	-44,15	-22,26	
+DIFERENÇA	-17,48	-6,32	9,71	-0,59	47,37	10,54	-64,34	21,12	
